@@ -134,7 +134,6 @@ def main():
                     "fear.jpg","happy.jpg",
                     "neutral.jpg","sad.jpg","surprise.jpg"]
         st.subheader("Demo images")
-        #folder = "./demo_images/"
         folder = r"E:\MAYANK\ALMABETTER\Capstone Project-5\Dataset\demo_images\\"
         c = st.selectbox("Select an image",pictures)
         path=folder+c
